@@ -126,7 +126,7 @@ int    a=0,b=0;
 while(operations)
 {
 int    flag=0;
-cin>>ch;
+cin>>ch;//left/right/up/down
 if(movingsnake(board,ch,v,v.size(),a,b))
 cout<<"Error"<<endl;
 check(f,v,v.size(),a,b);
